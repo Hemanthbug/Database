@@ -92,4 +92,4 @@ def post_update(id):
         (data["name"],data["age"],data["type"],data["owner"],id))
     rows = cursor.fetchall()
     connection.commit()
-    return redirect(url_for("get_list"))  
+    return redirect(url_for("get_list"))
